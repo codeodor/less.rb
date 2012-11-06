@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "commonjs", "~> 0.2.6"
+  s.add_dependency "therubyracer", "~> 0.10"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 2.0"
 
