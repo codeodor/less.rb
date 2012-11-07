@@ -1,7 +1,7 @@
 begin
   require 'v8' unless defined?(V8)
 rescue LoadError => e
-  warn "[WARNING] Please install gem 'therubyracer' to use Less."
+  warn "[WARNING] Unable to find a commonjs runtime. You will need to have therubyracer or therubyrhino in your gem path to use Less."
   raise e
 end
 
